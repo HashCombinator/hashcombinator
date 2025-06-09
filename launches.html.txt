@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Launches - HashCombinator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a href="index.html">HashCombinator</a> | <a href="about.html">About</a> | <a href="launches.html">Launches</a> | <a href="docs.html">Docs</a> | <a href="apply.html">Apply</a></header>
+  <section class="fade-in">
+    <h1>Our Launches</h1>
+    <div class="card">
+      <h2>Project #1: NeuroScan</h2>
+      <p>AI-powered skin cancer detection. Backed and launched via HashCombinator.</p>
+    </div>
+    <div class="card">
+      <h2>Project #2: GameFi Royale</h2>
+      <p>Massively viral crypto gambling experience with play-to-earn mechanics.</p>
+    </div>
+  </section>
+</body>
+</html>

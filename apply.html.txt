@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply - HashCombinator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a href="index.html">HashCombinator</a> | <a href="about.html">About</a> | <a href="launches.html">Launches</a> | <a href="docs.html">Docs</a> | <a href="apply.html">Apply</a></header>
+  <section class="fade-in">
+    <h1>Apply to HashCombinator</h1>
+    <form action="https://formspree.io/f/YOUR_ID" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required><br>
+      <input type="email" name="email" placeholder="Your Email" required><br>
+      <textarea name="project" placeholder="Tell us about your startup..." required></textarea><br>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</body>
+</html>

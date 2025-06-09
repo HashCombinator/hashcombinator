@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Docs - HashCombinator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a href="index.html">HashCombinator</a> | <a href="about.html">About</a> | <a href="launches.html">Launches</a> | <a href="docs.html">Docs</a> | <a href="apply.html">Apply</a></header>
+  <section class="fade-in">
+    <h1>Documentation</h1>
+    <h2>How it Works</h2>
+    <p>We help you define your MVP, set up a crypto launch strategy, and gain viral adoption through community-first strategies. We use smart tokenomics and launch on platforms like pump.fun.</p>
+    <h2>Equity</h2>
+    <p>We take 5–10% equity in return for MVP development, token launch, community testing, and user acquisition.</p>
+  </section>
+</body>
+</html>

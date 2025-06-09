@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - HashCombinator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a href="index.html">HashCombinator</a> | <a href="about.html">About</a> | <a href="launches.html">Launches</a> | <a href="docs.html">Docs</a> | <a href="apply.html">Apply</a></header>
+  <section class="fade-in">
+    <h1>About HashCombinator</h1>
+    <p>We’re redefining startup incubation with memecoin-native acceleration. Our mission is to help projects launch with traction, community, and funding from day one.</p>
+    <p>We back AI, games, gambling, finance apps and more. We offer 5–10% equity-based support for MVP development, community launch, and investor traction.</p>
+  </section>
+</body>
+</html>
