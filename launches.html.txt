@@ -1,23 +1,36 @@
+<!-- launches.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Launches - HashCombinator</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Launches - HashCombinator</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header><a href="index.html">HashCombinator</a> | <a href="about.html">About</a> | <a href="launches.html">Launches</a> | <a href="docs.html">Docs</a> | <a href="apply.html">Apply</a></header>
-  <section class="fade-in">
-    <h1>Our Launches</h1>
-    <div class="card">
-      <h2>Project #1: NeuroScan</h2>
-      <p>AI-powered skin cancer detection. Backed and launched via HashCombinator.</p>
-    </div>
-    <div class="card">
-      <h2>Project #2: GameFi Royale</h2>
-      <p>Massively viral crypto gambling experience with play-to-earn mechanics.</p>
-    </div>
-  </section>
+  <header>
+    <div class="logo">HashCombinator</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About us</a>
+      <a href="launches.html">Our launches</a>
+      <a href="docs.html">Docs</a>
+      <a href="apply.html">Apply</a>
+    </nav>
+  </header>
+  <main>
+    <section class="section title">
+      <h2>Our Launches</h2>
+      <p>Discover the projects we've helped take off.</p>
+    </section>
+    <section class="section grid grid-3">
+      <!-- Example cards: replace with real entries -->
+      <div class="card"><h3>NeuroScan AI</h3><p>Skin cancer detection using AI vision.</p></div>
+      <div class="card"><h3>GameFi Royale</h3><p>Play-to-earn crypto gaming tournament platform.</p></div>
+      <div class="card"><h3>Finhack Wallet</h3><p>All-in-one crypto investment and budgeting app.</p></div>
+    </section>
+  </main>
+  <footer>&copy; 2025 HashCombinator. All rights reserved.</footer>
 </body>
 </html>
+
