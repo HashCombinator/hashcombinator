@@ -6,6 +6,9 @@ module.exports = {
         dark: '#0A0A0F',
         primary: '#7FFF00',
         accent: '#FF7E1B'
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif']
       }
     }
   },
