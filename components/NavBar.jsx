@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function NavBar() {
   return (
@@ -8,7 +9,10 @@ export default function NavBar() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="text-primary text-xl font-bold">HashCombinator</div>
+      <div className="flex items-center space-x-2">
+        <Image src="/logo.svg" alt="logo" width={32} height={32} />
+        <span className="text-primary text-xl font-bold">HashCombinator</span>
+      </div>
       <nav className="space-x-6 text-white">
         {['Home','About','Launches','Docs','Apply'].map(link => (
           <a href={link==='Home'?'/':`/${link.toLowerCase()}`} className="hover:text-primary transition-shadow" key={link}>{link}</a>

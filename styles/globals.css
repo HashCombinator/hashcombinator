@@ -2,4 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Additional global styles if needed */ 
+@layer base {
+  body {
+    @apply bg-dark text-white font-sans;
+  }
+}
