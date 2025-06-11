@@ -1,4 +1,3 @@
-// components/NavBar.jsx
 import { motion } from 'framer-motion';
 export default function NavBar() {
   return (

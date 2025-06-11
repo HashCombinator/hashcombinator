@@ -1,4 +1,3 @@
-// components/CardSection.jsx
 import { motion } from 'framer-motion';
 const cards = [
   { title: 'MVP Development', text: 'From idea to prototype with hands-on technical guidance.' },

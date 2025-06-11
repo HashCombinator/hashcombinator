@@ -1,4 +1,3 @@
-// pages/index.jsx
 import NavBar from '../components/NavBar';
 import Hero from '../components/Hero';
 import CardSection from '../components/CardSection';
