@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 export default function Hero() {
   return (
-    <section className="h-screen flex items-center justify-center bg-gradient-to-br from-gray-800 to-dark text-center px-4">
+    <section className="h-screen flex items-center justify-center bg-gradient-to-br from-trust via-innovation to-dark text-center px-4">
       <div>
         <motion.h1 className="text-5xl md:text-6xl font-bold text-white mb-4"
           initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
