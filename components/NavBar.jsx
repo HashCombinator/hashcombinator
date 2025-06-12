@@ -1,18 +1,14 @@
-import { motion } from 'framer-motion';
 export default function NavBar() {
   return (
-    <motion.header
-      className="fixed w-full bg-dark bg-opacity-50 backdrop-blur-sm z-50 flex justify-between items-center px-8 py-4"
-      initial={{ y: -50, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.5 }}
-    >
-      <div className="text-primary text-xl font-bold">HashCombinator</div>
-      <nav className="space-x-6 text-white">
-        {['Home','About','Launches','Docs','Apply'].map(link => (
-          <a href={link==='Home'?'/':`/${link.toLowerCase()}`} className="hover:text-primary transition-shadow" key={link}>{link}</a>
+    <nav className="bg-dark text-white py-4 px-8 flex justify-between items-center backdrop-blur-md bg-opacity-80 fixed top-0 w-full z-50">
+      <div className="text-2xl font-bold text-white">HashCombinator</div>
+      <div className="space-x-6">
+        {['Home','Our Launches','Docs','Apply'].map(link => (
+          <a key={link} href={`/${link.toLowerCase().replace(/ /g, '')}`} className="hover:text-primary transition-all duration-300">
+            {link}
+          </a>
         ))}
-      </nav>
-    </motion.header>
+      </div>
+    </nav>
   );
 }
