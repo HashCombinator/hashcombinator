@@ -17,6 +17,7 @@ export default function Phases() {
           </div>
         ))}
       </div>
+      
     </section>
   );
 }
